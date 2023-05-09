@@ -11,6 +11,7 @@ The tool required to compile kernel is already included!!
 
 //** Current working functions
 
-External bluetooth and wifi adapter works. "Only tested rtl8812au wifi adapter"
-Usb arsenal is not working properly yet for some reasons "Will fix it in a later push"
+Internal and External bluetooth works |AIRPLANE MODE HAS TO BE ON|.
+External wifi adapter is functional "Only tested rtl8812au"
+Usb arsenal is not working properly yet.
 
