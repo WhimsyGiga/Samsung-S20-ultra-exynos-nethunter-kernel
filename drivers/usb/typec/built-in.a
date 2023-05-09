@@ -1,0 +1,28 @@
+!<thin>
+//                                              300       `
+class.o/
+mux.o/
+bus.o/
+manager/usb_typec_manager_notifier.o/
+manager/if_cb_manager.o/
+common/pdic_notifier.o/
+common/pdic_sysfs.o/
+common/pdic_core.o/
+common/pdic_misc.o/
+maxim/max77705/max77705_cc.o/
+maxim/max77705/max77705_pd.o/
+maxim/max77705/max77705_usbc.o/
+maxim/max77705/max77705_alternate.o/
+/0              0           0     0     644     268592    `
+/9              0           0     0     644     90792     `
+/16             0           0     0     644     93360     `
+/23             0           0     0     644     297112    `
+/61            /0           0     0     644     11296     `
+/86            /0           0     0     644     136696    `
+/110            0           0     0     644     119688    `
+/131            0           0     0     644     83528     `
+/151            0           0     0     644     158440    `
+/171            0           0     0     644     251880    `
+/201            0           0     0     644     292024    `
+/231           /0           0     0     644     564576    `
+/263            0           0     0     644     273688    `

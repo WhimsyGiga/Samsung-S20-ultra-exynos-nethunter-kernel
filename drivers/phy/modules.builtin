@@ -1,0 +1,9 @@
+kernel/drivers/phy/samsung/phy-exynos-dp-video.ko
+kernel/drivers/phy/samsung/phy-exynos-mipi-video.ko
+kernel/drivers/phy/samsung/phy-exynos-mipi-dsim.ko
+kernel/drivers/phy/samsung/phy-exynos-mipi.ko
+kernel/drivers/phy/samsung/phy-exynos-debugfs.ko
+kernel/drivers/phy/samsung/phy-exynos-dp-debugfs.ko
+kernel/drivers/phy/samsung/phy-exynos-usbdrd.ko
+kernel/drivers/phy/samsung/phy-exynos-debugfs.ko
+kernel/drivers/phy/samsung/phy-exynos-usbdp-gen2-v2.ko

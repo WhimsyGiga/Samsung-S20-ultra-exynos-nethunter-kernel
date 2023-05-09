@@ -1,0 +1,19 @@
+!<thin>
+//                                              142       `
+sec_star.o/
+protocol/ese_data.o/
+protocol/ese_memory.o/
+protocol/ese_iso7816_t1.o/
+hal/ese_i2c.o/
+hal/ese_spi.o/
+hal/ese_hal.o/
+sec_k250a.o/
+
+/0              0           0     0     644     151280    `
+/12             0           0     0     644     13208     `
+/33             0           0     0     644     1160      `
+/56             0           0     0     644     34360     `
+/83             0           0     0     644     71200     `
+/98             0           0     0     644     130608    `
+/113            0           0     0     644     8112      `
+/128            0           0     0     644     159184    `

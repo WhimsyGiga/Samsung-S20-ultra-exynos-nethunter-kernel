@@ -1,0 +1,10 @@
+kernel/drivers/regulator/fixed.ko
+kernel/drivers/regulator/pmic_class.ko
+kernel/drivers/regulator/s2mps19_regulator.ko
+kernel/drivers/regulator/s2mps19_powermeter.ko
+kernel/drivers/regulator/s2mps22_regulator.ko
+kernel/drivers/regulator/s2mps22_powermeter.ko
+kernel/drivers/regulator/s2mpb02-regulator.ko
+kernel/drivers/regulator/s2mpb03.ko
+kernel/drivers/regulator/s2dos05.ko
+kernel/drivers/regulator/s2dos05_powermeter.ko

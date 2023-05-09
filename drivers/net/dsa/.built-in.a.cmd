@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/built-in.a :=  rm -f drivers/net/dsa/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/net/dsa/built-in.a drivers/net/dsa/b53/built-in.a drivers/net/dsa/microchip/built-in.a drivers/net/dsa/mv88e6xxx/built-in.a

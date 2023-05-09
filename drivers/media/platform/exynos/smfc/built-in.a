@@ -1,0 +1,11 @@
+!<thin>
+//                                              64        `
+smfc.o/
+smfc-v4l2-ioctls.o/
+smfc-regs.o/
+smfc-stream-parser.o/
+
+/0              0           0     0     644     310936    `
+/8              0           0     0     644     234712    `
+/28             0           0     0     644     245832    `
+/41             0           0     0     644     246344    `

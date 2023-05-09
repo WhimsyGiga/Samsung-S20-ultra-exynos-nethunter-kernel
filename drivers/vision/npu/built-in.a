@@ -1,0 +1,79 @@
+!<thin>
+//                                              966       `
+core/npu-util-autosleepthr.o/
+core/npu-util-liststatemgr.o/
+core/npu-util-msgidgen.o/
+core/npu-util-regs.o/
+core/npu-util-llq.o/
+core/npu-util-common.o/
+core/npu-llc.o/
+core/npu-log.o/
+core/npu-ver.o/
+core/npu-debug.o/
+core/npu-device.o/
+core/npu-core.o/
+core/npu-clock.o/
+core/npu-vertex.o/
+core/npu-binary.o/
+core/npu-queue.o/
+core/npu-qos.o/
+core/npu-system.o/
+core/npu-memory.o/
+core/npu-protodrv.o/
+core/npu-session.o/
+core/npu-fw-test-handler.o/
+core/npu-if-session-protodrv.o/
+core/npu-if-protodrv-mbox2.o/
+core/npu-sessionmgr.o/
+core/interface/hardware/npu-interface.o/
+core/interface/hardware/mailbox_ipc.o/
+core/npu-golden.o/
+core/npu-util-statekeeper.o/
+core/npu-util-comparator.o/
+core/npu-util-memdump.o/
+core/npu-scheduler.o/
+core/npu-scheduler-governor.o/
+core/npu-scheduler-governor-simple-exynos.o/
+core/npu-scheduler-governor-exynos-interactive.o/
+core/npu-scheduler-governor-userspace.o/
+core/generated/npu-ver-info.o/
+soc/9830/npu-system-soc.o/
+
+/0              0           0     0     644     211920    `
+/30             0           0     0     644     222568    `
+/60             0           0     0     644     22336     `
+/86            /0           0     0     644     21888     `
+/108            0           0     0     644     12824     `
+/129            0           0     0     644     4992      `
+/153            0           0     0     644     172352    `
+/169            0           0     0     644     356648    `
+/185            0           0     0     644     176000    `
+/201            0           0     0     644     220488    `
+/219            0           0     0     644     272064    `
+/238            0           0     0     644     210768    `
+/255            0           0     0     644     144440    `
+/273            0           0     0     644     283232    `
+/292            0           0     0     644     212376    `
+/311            0           0     0     644     192368    `
+/329            0           0     0     644     212944    `
+/345            0           0     0     644     252880    `
+/364            0           0     0     644     179992    `
+/383            0           0     0     644     1814288   `
+/404            0           0     0     644     335376    `
+/424            0           0     0     644     217128    `
+/452            0           0     0     644     180752    `
+/484            0           0     0     644     176248    `
+/514            0           0     0     644     145880    `
+/537           /0           0     0     644     299168    `
+/578            0           0     0     644     61968     `
+/617            0           0     0     644     324608    `
+/636            0           0     0     644     11832     `
+/665            0           0     0     644     16296     `
+/693            0           0     0     644     225280    `
+/718           /0           0     0     644     322112    `
+/740            0           0     0     644     174936    `
+/771            0           0     0     644     200560    `
+/816            0           0     0     644     203320    `
+/866            0           0     0     644     196304    `
+/907            0           0     0     644     3096      `
+/938            0           0     0     644     262600    `

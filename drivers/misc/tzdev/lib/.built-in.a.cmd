@@ -1,0 +1,1 @@
+cmd_drivers/misc/tzdev/lib/built-in.a :=  rm -f drivers/misc/tzdev/lib/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/misc/tzdev/lib/built-in.a drivers/misc/tzdev/lib/circ_buf.o drivers/misc/tzdev/lib/circ_buf_packet.o

@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/exynos/dp_logger/built-in.a :=  rm -f drivers/video/fbdev/exynos/dp_logger/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/video/fbdev/exynos/dp_logger/built-in.a drivers/video/fbdev/exynos/dp_logger/dp_logger.o drivers/video/fbdev/exynos/dp_logger/displayport_bigdata.o

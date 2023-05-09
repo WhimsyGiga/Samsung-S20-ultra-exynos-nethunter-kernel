@@ -1,0 +1,6 @@
+kernel/drivers/scsi/ufs/ufshcd-core.ko
+kernel/drivers/scsi/ufs/ufshcd-pltfrm.ko
+kernel/drivers/scsi/ufs/ufs-exynos.ko
+kernel/drivers/scsi/ufs/ufs-exynos-dbg.ko
+kernel/drivers/scsi/ufs/ufs-cal-9830.ko
+kernel/drivers/scsi/ufs/ufs-perf.ko

@@ -1,0 +1,1 @@
+cmd_drivers/nfc/built-in.a :=  rm -f drivers/nfc/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/nfc/built-in.a drivers/nfc/sec_nfc.o drivers/nfc/ese_p3.o drivers/nfc/sec-star/built-in.a drivers/nfc/nfc_logger/built-in.a

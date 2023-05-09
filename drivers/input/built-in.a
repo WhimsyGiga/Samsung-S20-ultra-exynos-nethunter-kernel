@@ -1,0 +1,66 @@
+!<thin>
+//                                              650       `
+input.o/
+input-compat.o/
+input-mt.o/
+ff-core.o/
+sec_cmd.o/
+sec_tsp_log.o/
+sec_tclm_v2.o/
+ff-memless.o/
+matrix-keymap.o/
+input-leds.o/
+evdev.o/
+input_booster.o/
+input_booster_lsi.o/
+keyboard/atkbd.o/
+keyboard/gpio_keys.o/
+keyboard/samsung-keypad.o/
+joystick/xpad.o/
+tablet/acecad.o/
+tablet/aiptek.o/
+tablet/gtco.o/
+tablet/hanwang.o/
+tablet/kbtab.o/
+touchscreen/of_touchscreen.o/
+touchscreen/sec_ts/y79a/sec_ts.o/
+touchscreen/sec_ts/y79a/sec_ts_fw.o/
+touchscreen/sec_ts/y79a/sec_ts_fn.o/
+touchscreen/sec_ts/y79a/sec_ts_ioctl.o/
+touchscreen/sec_ts/y79a/sec_ts_only_vendor.o/
+misc/uinput.o/
+misc/hall/hall.o/
+misc/hall/certify_hall.o/
+sec_tsp_dumpkey.o/
+/0              0           0     0     644     395848    `
+/9              0           0     0     644     144504    `
+/25             0           0     0     644     167864    `
+/37             0           0     0     644     153656    `
+/48             0           0     0     644     182888    `
+/59             0           0     0     644     192296    `
+/74             0           0     0     644     181608    `
+/89             0           0     0     644     167288    `
+/103           /0           0     0     644     145960    `
+/120            0           0     0     644     149384    `
+/134            0           0     0     644     341880    `
+/143           /0           0     0     644     268856    `
+/160            0           0     0     644     136368    `
+/181            0           0     0     644     255056    `
+/199            0           0     0     644     268008    `
+/221            0           0     0     644     202520    `
+/248            0           0     0     644     280952    `
+/265            0           0     0     644     178872    `
+/282            0           0     0     644     281992    `
+/299            0           0     0     644     194776    `
+/314            0           0     0     644     189880    `
+/332            0           0     0     644     175648    `
+/348            0           0     0     644     150080    `
+/378            0           0     0     644     679640    `
+/412            0           0     0     644     310792    `
+/449            0           0     0     644     998888    `
+/486            0           0     0     644     223112    `
+/526            0           0     0     644     213472    `
+/572            0           0     0     644     256632    `
+/587            0           0     0     644     193904    `
+/605            0           0     0     644     193704    `
+/631            0           0     0     644     15464     `

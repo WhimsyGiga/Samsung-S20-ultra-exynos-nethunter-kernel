@@ -1,0 +1,7 @@
+kernel/drivers/nfc/sec-star/sec_star.ko
+kernel/drivers/nfc/sec-star/protocol/ese_data.ko
+kernel/drivers/nfc/sec-star/protocol/ese_memory.ko
+kernel/drivers/nfc/sec-star/protocol/ese_iso7816_t1.ko
+kernel/drivers/nfc/sec-star/hal/ese_i2c.ko
+kernel/drivers/nfc/sec-star/hal/ese_spi.ko
+kernel/drivers/nfc/sec-star/hal/ese_hal.ko

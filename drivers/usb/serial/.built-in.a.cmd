@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/built-in.a :=  rm -f drivers/usb/serial/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/usb/serial/built-in.a drivers/usb/serial/usb-serial.o drivers/usb/serial/generic.o drivers/usb/serial/bus.o drivers/usb/serial/ftdi_sio.o drivers/usb/serial/pl2303.o

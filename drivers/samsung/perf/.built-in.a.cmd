@@ -1,0 +1,1 @@
+cmd_drivers/samsung/perf/built-in.a :=  rm -f drivers/samsung/perf/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/samsung/perf/built-in.a drivers/samsung/perf/sec_perf_latencychecker.o drivers/samsung/perf/sec_bootstat.o

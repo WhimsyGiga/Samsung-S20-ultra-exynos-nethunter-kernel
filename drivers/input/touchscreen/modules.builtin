@@ -1,0 +1,6 @@
+kernel/drivers/input/touchscreen/of_touchscreen.ko
+kernel/drivers/input/touchscreen/sec_ts/y79a/sec_ts.ko
+kernel/drivers/input/touchscreen/sec_ts/y79a/sec_ts_fw.ko
+kernel/drivers/input/touchscreen/sec_ts/y79a/sec_ts_fn.ko
+kernel/drivers/input/touchscreen/sec_ts/y79a/sec_ts_ioctl.ko
+kernel/drivers/input/touchscreen/sec_ts/y79a/sec_ts_only_vendor.ko

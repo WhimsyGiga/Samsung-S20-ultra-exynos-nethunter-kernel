@@ -1,0 +1,3 @@
+kernel/drivers/usb/host/xhci-hcd.ko
+kernel/drivers/usb/host/xhci-pci.ko
+kernel/drivers/usb/host/xhci-plat-hcd.ko

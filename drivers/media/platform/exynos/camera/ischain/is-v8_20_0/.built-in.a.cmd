@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/camera/ischain/is-v8_20_0/built-in.a :=  rm -f drivers/media/platform/exynos/camera/ischain/is-v8_20_0/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/media/platform/exynos/camera/ischain/is-v8_20_0/built-in.a 

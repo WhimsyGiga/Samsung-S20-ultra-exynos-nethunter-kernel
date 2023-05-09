@@ -1,0 +1,85 @@
+!<thin>
+//                                              722       `
+access.o/
+bus.o/
+probe.o/
+host-bridge.o/
+remove.o/
+pci.o/
+pci-driver.o/
+search.o/
+pci-sysfs.o/
+rom.o/
+setup-res.o/
+irq.o/
+vpd.o/
+setup-bus.o/
+vc.o/
+mmap.o/
+setup-irq.o/
+proc.o/
+slot.o/
+of.o/
+quirks.o/
+pcie/portdrv_core.o/
+pcie/portdrv_pci.o/
+pcie/err.o/
+pcie/aspm.o/
+pcie/aer.o/
+pcie/pme.o/
+msi.o/
+syscall.o/
+controller/dwc/pcie-designware.o/
+controller/dwc/pcie-designware-host.o/
+controller/dwc/pcie-designware-plat.o/
+controller/dwc/pcie-exynos-host-v0.o/
+controller/dwc/pcie-exynos-rc.o/
+controller/dwc/pcie-exynos-dbg.o/
+controller/dwc/pcie-exynos9830-v0-cal.o/
+controller/dwc/pcie-exynos9830-rc-cal.o/
+controller/dwc/pcie-hisi.o/
+controller/pci-thunder-ecam.o/
+controller/pci-thunder-pem.o/
+controller/pci-xgene.o/
+
+/0              0           0     0     644     228976    `
+/10             0           0     0     644     173072    `
+/17             0           0     0     644     367200    `
+/26             0           0     0     644     144144    `
+/41             0           0     0     644     152088    `
+/51             0           0     0     644     614624    `
+/58             0           0     0     644     281088    `
+/72             0           0     0     644     160880    `
+/82             0           0     0     644     258456    `
+/95             0           0     0     644     145656    `
+/102            0           0     0     644     149928    `
+/115            0           0     0     644     134680    `
+/122            0           0     0     644     178688    `
+/129            0           0     0     644     307624    `
+/142            0           0     0     644     148560    `
+/148            0           0     0     644     126200    `
+/156            0           0     0     644     126704    `
+/169            0           0     0     644     192136    `
+/177            0           0     0     644     159248    `
+/185            0           0     0     644     184712    `
+/191            0           0     0     644     478968    `
+/201            0           0     0     644     161920    `
+/222            0           0     0     644     142320    `
+/242            0           0     0     644     151032    `
+/254            0           0     0     644     214280    `
+/267            0           0     0     644     228656    `
+/279            0           0     0     644     164888    `
+/291            0           0     0     644     259816    `
+/298            0           0     0     644     206720    `
+/309            0           0     0     644     173232    `
+/343            0           0     0     644     202576    `
+/382            0           0     0     644     165632    `
+/421            0           0     0     644     627432    `
+/459            0           0     0     644     620616    `
+/492            0           0     0     644     186848    `
+/526            0           0     0     644     216040    `
+/567            0           0     0     644     288288    `
+/608            0           0     0     644     1160      `
+/636            0           0     0     644     1168      `
+/667            0           0     0     644     1168      `
+/697            0           0     0     644     1160      `

@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/manager/built-in.a :=  rm -f drivers/usb/typec/manager/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/usb/typec/manager/built-in.a drivers/usb/typec/manager/usb_typec_manager_notifier.o drivers/usb/typec/manager/if_cb_manager.o

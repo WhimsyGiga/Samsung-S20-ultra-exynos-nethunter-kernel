@@ -1,0 +1,34 @@
+!<thin>
+//                                              244       `
+core.o/
+dummy.o/
+fixed-helper.o/
+helpers.o/
+devres.o/
+of_regulator.o/
+fixed.o/
+pmic_class.o/
+s2mps19_regulator.o/
+s2mps19_powermeter.o/
+s2mps22_regulator.o/
+s2mps22_powermeter.o/
+s2mpb02-regulator.o/
+s2mpb03.o/
+s2dos05.o/
+s2dos05_powermeter.o/
+/0              0           0     0     644     684888    `
+/8              0           0     0     644     163656    `
+/17             0           0     0     644     154160    `
+/33             0           0     0     644     110816    `
+/44             0           0     0     644     202512    `
+/54             0           0     0     644     212896    `
+/70             0           0     0     644     196208    `
+/79             0           0     0     644     68016     `
+/93             0           0     0     644     323944    `
+/114            0           0     0     644     132416    `
+/136            0           0     0     644     260816    `
+/157            0           0     0     644     131232    `
+/179            0           0     0     644     235248    `
+/200            0           0     0     644     245368    `
+/211            0           0     0     644     279960    `
+/222            0           0     0     644     103144    `

@@ -1,0 +1,3 @@
+kernel/drivers/input/misc/uinput.ko
+kernel/drivers/input/misc/hall/hall.ko
+kernel/drivers/input/misc/hall/certify_hall.ko

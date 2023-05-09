@@ -1,0 +1,20 @@
+!<thin>
+//                                              192       `
+pcie-designware.o/
+pcie-designware-host.o/
+pcie-designware-plat.o/
+pcie-exynos-host-v0.o/
+pcie-exynos-rc.o/
+pcie-exynos-dbg.o/
+pcie-exynos9830-v0-cal.o/
+pcie-exynos9830-rc-cal.o/
+pcie-hisi.o/
+/0              0           0     0     644     173232    `
+/19             0           0     0     644     202576    `
+/43             0           0     0     644     165632    `
+/67             0           0     0     644     627432    `
+/90             0           0     0     644     620616    `
+/108            0           0     0     644     186848    `
+/127            0           0     0     644     216040    `
+/153            0           0     0     644     288288    `
+/179            0           0     0     644     1160      `

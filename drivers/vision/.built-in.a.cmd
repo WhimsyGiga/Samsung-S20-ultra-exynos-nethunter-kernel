@@ -1,0 +1,1 @@
+cmd_drivers/vision/built-in.a :=  rm -f drivers/vision/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/vision/built-in.a drivers/vision/vision-core/built-in.a drivers/vision/dsp/built-in.a drivers/vision/npu/built-in.a

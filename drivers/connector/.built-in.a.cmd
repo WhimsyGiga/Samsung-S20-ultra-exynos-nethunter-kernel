@@ -1,0 +1,1 @@
+cmd_drivers/connector/built-in.a :=  rm -f drivers/connector/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/connector/built-in.a drivers/connector/cn_queue.o drivers/connector/connector.o drivers/connector/cn_proc.o

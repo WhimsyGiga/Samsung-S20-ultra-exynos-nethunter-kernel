@@ -1,0 +1,22 @@
+!<thin>
+//                                              134       `
+main.o/
+version.o/
+do_mounts.o/
+do_mounts_rd.o/
+do_mounts_initrd.o/
+do_mounts_dm.o/
+initramfs.o/
+calibrate.o/
+rkp_cfp.o/
+init_task.o/
+/0              0           0     0     644     403920    `
+/8              0           0     0     644     41096     `
+/19             0           0     0     644     409992    `
+/32             0           0     0     644     226248    `
+/48             0           0     0     644     216032    `
+/68             0           0     0     644     23288     `
+/84             0           0     0     644     230528    `
+/97             0           0     0     644     13216     `
+/110            0           0     0     644     5424      `
+/121            0           0     0     644     185672    `

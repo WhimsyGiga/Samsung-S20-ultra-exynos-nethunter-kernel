@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/built-in.a :=  rm -f drivers/hwmon/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/hwmon/built-in.a drivers/hwmon/hwmon.o drivers/hwmon/sec_thermistor.o

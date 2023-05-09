@@ -1,0 +1,25 @@
+!<thin>
+//                                              260       `
+sec_nfc.o/
+ese_p3.o/
+sec-star/sec_star.o/
+sec-star/protocol/ese_data.o/
+sec-star/protocol/ese_memory.o/
+sec-star/protocol/ese_iso7816_t1.o/
+sec-star/hal/ese_i2c.o/
+sec-star/hal/ese_spi.o/
+sec-star/hal/ese_hal.o/
+sec-star/sec_k250a.o/
+nfc_logger/nfc_logger.o/
+
+/0              0           0     0     644     281480    `
+/11             0           0     0     644     237272    `
+/21             0           0     0     644     151280    `
+/42             0           0     0     644     13208     `
+/72             0           0     0     644     1160      `
+/104            0           0     0     644     34360     `
+/140            0           0     0     644     71200     `
+/164            0           0     0     644     130608    `
+/188            0           0     0     644     8112      `
+/212            0           0     0     644     159184    `
+/234            0           0     0     644     115856    `

@@ -1,0 +1,11 @@
+kernel/drivers/mfd/cs35l41-core.ko
+kernel/drivers/mfd/cs35l41-tables.ko
+kernel/drivers/mfd/cs35l41-cal.ko
+kernel/drivers/mfd/cs35l41-bd.ko
+kernel/drivers/mfd/cs35l41-pwr.ko
+kernel/drivers/mfd/cirrus-cal.ko
+kernel/drivers/mfd/cirrus-bd.ko
+kernel/drivers/mfd/cirrus-amp.ko
+kernel/drivers/mfd/cirrus-pwr.ko
+kernel/drivers/mfd/cs35l41-i2c.ko
+kernel/drivers/mfd/mfd-core.ko

@@ -1,0 +1,73 @@
+!<thin>
+//                                              802       `
+uid_sys_stats.o/
+exynos_pasr.o/
+tzdev/lib/circ_buf.o/
+tzdev/lib/circ_buf_packet.o/
+tzdev/core/cdev.o/
+tzdev/core/cred.o/
+tzdev/core/event.o/
+tzdev/core/iwio.o/
+tzdev/core/iwservice.o/
+tzdev/core/iwsock.o/
+tzdev/core/log.o/
+tzdev/core/mem.o/
+tzdev/core/notifier.o/
+tzdev/core/ree_time.o/
+tzdev/core/sysdep.o/
+tzdev/core/tzdev.o/
+tzdev/core/umem.o/
+tzdev/core/uiwsock.o/
+tzdev/core/iwlog.o/
+tzdev/core/kthread_pool_smpboot.o/
+tzdev/core/platform.o/
+tzdev/teec/context.o/
+tzdev/teec/misc.o/
+tzdev/teec/session.o/
+tzdev/teec/shared_memory.o/
+tzdev/debug/iw_boot_log.o/
+tzdev/extensions/boost.o/
+tzdev/extensions/irs.o/
+tzdev/extensions/ion_fd2phys_v1.o/
+tui/main.o/
+tui/stui_core.o/
+tui/stui_inf.o/
+tui/platforms/exynos9830/stui_hal_display.o/
+tui/platforms/exynos9830/stui_hal_touch.o/
+dev_ril_bridge.o/
+
+/0             /0           0     0     644     189032    `
+/17             0           0     0     644     232320    `
+/32             0           0     0     644     73496     `
+/54             0           0     0     644     13192     `
+/83             0           0     0     644     109008    `
+/102            0           0     0     644     148560    `
+/121            0           0     0     644     11360     `
+/141            0           0     0     644     115840    `
+/160            0           0     0     644     6408      `
+/184            0           0     0     644     217216    `
+/205            0           0     0     644     59544     `
+/223            0           0     0     644     149800    `
+/241            0           0     0     644     97232     `
+/264            0           0     0     644     46672     `
+/287            0           0     0     644     140432    `
+/308            0           0     0     644     186696    `
+/328            0           0     0     644     141120    `
+/347            0           0     0     644     185032    `
+/369            0           0     0     644     111928    `
+/389            0           0     0     644     172448    `
+/424            0           0     0     644     124024    `
+/447            0           0     0     644     58560     `
+/469            0           0     0     644     128328    `
+/488            0           0     0     644     168176    `
+/510           /0           0     0     644     134040    `
+/538            0           0     0     644     115960    `
+/565            0           0     0     644     110640    `
+/591            0           0     0     644     134080    `
+/615            0           0     0     644     155504    `
+/650            0           0     0     644     131504    `
+/662            0           0     0     644     130664    `
+/679            0           0     0     644     303968    `
+/695            0           0     0     644     205104    `
+/740            0           0     0     644     9336      `
+/783            0           0     0     644     280544    `

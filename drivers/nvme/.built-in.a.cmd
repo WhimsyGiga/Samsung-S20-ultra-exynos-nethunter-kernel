@@ -1,0 +1,1 @@
+cmd_drivers/nvme/built-in.a :=  rm -f drivers/nvme/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/nvme/built-in.a drivers/nvme/host/built-in.a drivers/nvme/target/built-in.a

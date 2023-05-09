@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/hall/built-in.a :=  rm -f drivers/input/misc/hall/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/input/misc/hall/built-in.a drivers/input/misc/hall/hall.o drivers/input/misc/hall/certify_hall.o

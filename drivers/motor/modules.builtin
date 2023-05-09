@@ -1,0 +1,2 @@
+kernel/drivers/motor/cs40l2x.ko
+kernel/drivers/motor/cs40l2x-tables.ko

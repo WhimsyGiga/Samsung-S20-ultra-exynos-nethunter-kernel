@@ -1,0 +1,1 @@
+cmd_drivers/misc/tzdev/teec/built-in.a :=  rm -f drivers/misc/tzdev/teec/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/misc/tzdev/teec/built-in.a drivers/misc/tzdev/teec/context.o drivers/misc/tzdev/teec/misc.o drivers/misc/tzdev/teec/session.o drivers/misc/tzdev/teec/shared_memory.o

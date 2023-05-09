@@ -1,0 +1,17 @@
+!<thin>
+//                                              102       `
+sec_batt.o/
+sec_nad.o/
+sec_nad_balancer.o/
+sec_bps.o/
+sec_hqm_device.o/
+vbus_notifier.o/
+sec_pcie.o/
+
+/0              0           0     0     644     23696     `
+/12             0           0     0     644     4968      `
+/23             0           0     0     644     5368      `
+/43             0           0     0     644     4968      `
+/54             0           0     0     644     120952    `
+/72            /0           0     0     644     44616     `
+/89             0           0     0     644     76392     `

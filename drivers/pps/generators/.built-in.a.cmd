@@ -1,0 +1,1 @@
+cmd_drivers/pps/generators/built-in.a :=  rm -f drivers/pps/generators/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/pps/generators/built-in.a 

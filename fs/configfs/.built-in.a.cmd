@@ -1,0 +1,1 @@
+cmd_fs/configfs/built-in.a :=  rm -f fs/configfs/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD fs/configfs/built-in.a fs/configfs/inode.o fs/configfs/file.o fs/configfs/dir.o fs/configfs/symlink.o fs/configfs/mount.o fs/configfs/item.o

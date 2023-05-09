@@ -1,0 +1,1 @@
+cmd_drivers/staging/built-in.a :=  rm -f drivers/staging/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/staging/built-in.a drivers/staging/media/built-in.a drivers/staging/iio/built-in.a drivers/staging/android/built-in.a drivers/staging/sti/built-in.a

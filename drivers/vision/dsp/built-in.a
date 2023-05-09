@@ -1,0 +1,81 @@
+!<thin>
+//                                              856       `
+dsp-device.o/
+dsp-context.o/
+dsp-core.o/
+dsp-ioctl.o/
+dsp-compat-ioctl.o/
+dsp-debug.o/
+dsp-binary.o/
+dsp-task.o/
+dsp-kernel.o/
+dsp-graph.o/
+dsp-util.o/
+dsp-time.o/
+dl/dsp-common.o/
+dl/dsp-dl-engine.o/
+dl/dsp-dl-linker.o/
+dl/dsp-dl-out-manager.o/
+dl/dsp-elf-loader.o/
+dl/dsp-gpt-manager.o/
+dl/dsp-hash.o/
+dl/dsp-lib-manager.o/
+dl/dsp-list.o/
+dl/dsp-llstack.o/
+dl/dsp-pm-manager.o/
+dl/dsp-rule-reader.o/
+dl/dsp-string-tree.o/
+dl/dsp-sxml.o/
+dl/dsp-tlsf-allocator.o/
+dl/dsp-xml-parser.o/
+dsp-npu.o/
+hardware/exynos9830/dsp-hw-system.o/
+hardware/exynos9830/dsp-hw-pm.o/
+hardware/exynos9830/dsp-hw-clk.o/
+hardware/exynos9830/dsp-hw-bus.o/
+hardware/exynos9830/dsp-hw-interface.o/
+hardware/exynos9830/dsp-hw-debug.o/
+hardware/exynos9830/dsp-hw-ctrl.o/
+hardware/exynos9830/dsp-hw-memory.o/
+hardware/exynos9830/dsp-hw-mailbox.o/
+hardware/exynos9830/dsp-hw-dump.o/
+
+/0              0           0     0     644     185224    `
+/14             0           0     0     644     192832    `
+/29             0           0     0     644     153216    `
+/41             0           0     0     644     135984    `
+/54             0           0     0     644     219144    `
+/74             0           0     0     644     147672    `
+/87             0           0     0     644     59304     `
+/101            0           0     0     644     169320    `
+/113            0           0     0     644     169000    `
+/127            0           0     0     644     195960    `
+/140            0           0     0     644     50304     `
+/152            0           0     0     644     9808      `
+/164            0           0     0     644     12408     `
+/181           /0           0     0     644     34016     `
+/201           /0           0     0     644     92144     `
+/221            0           0     0     644     40528     `
+/246            0           0     0     644     92312     `
+/267            0           0     0     644     20880     `
+/289            0           0     0     644     12120     `
+/304            0           0     0     644     56424     `
+/326            0           0     0     644     9712      `
+/341            0           0     0     644     4424      `
+/359            0           0     0     644     24704     `
+/380            0           0     0     644     34176     `
+/402            0           0     0     644     8704      `
+/424            0           0     0     644     36640     `
+/439            0           0     0     644     50288     `
+/464            0           0     0     644     36184     `
+/485            0           0     0     644     3832      `
+/496           /0           0     0     644     266728    `
+/533            0           0     0     644     178728    `
+/566            0           0     0     644     148592    `
+/600            0           0     0     644     148784    `
+/634            0           0     0     644     227456    `
+/674            0           0     0     644     322192    `
+/710            0           0     0     644     362888    `
+/745           /0           0     0     644     169264    `
+/782            0           0     0     644     170000    `
+/820            0           0     0     644     177520    `

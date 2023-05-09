@@ -1,0 +1,3 @@
+kernel/drivers/fingerprint/qbt2000_common.ko
+kernel/drivers/fingerprint/qbt2000_platform.ko
+kernel/drivers/fingerprint/qbt2000_spidev.ko

@@ -1,0 +1,1 @@
+cmd_fs/fat/built-in.a :=  rm -f fs/fat/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD fs/fat/built-in.a fs/fat/cache.o fs/fat/dir.o fs/fat/fatent.o fs/fat/file.o fs/fat/inode.o fs/fat/misc.o fs/fat/nfs.o fs/fat/xattr.o fs/fat/namei_vfat.o fs/fat/namei_msdos.o

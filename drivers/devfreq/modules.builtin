@@ -1,0 +1,2 @@
+kernel/drivers/devfreq/governor_simpleinteractive.ko
+kernel/drivers/devfreq/exynos/exynos-ppc.ko

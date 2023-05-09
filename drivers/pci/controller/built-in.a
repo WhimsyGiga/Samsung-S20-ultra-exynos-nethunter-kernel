@@ -1,0 +1,26 @@
+!<thin>
+//                                              280       `
+dwc/pcie-designware.o/
+dwc/pcie-designware-host.o/
+dwc/pcie-designware-plat.o/
+dwc/pcie-exynos-host-v0.o/
+dwc/pcie-exynos-rc.o/
+dwc/pcie-exynos-dbg.o/
+dwc/pcie-exynos9830-v0-cal.o/
+dwc/pcie-exynos9830-rc-cal.o/
+dwc/pcie-hisi.o/
+pci-thunder-ecam.o/
+pci-thunder-pem.o/
+pci-xgene.o/
+/0              0           0     0     644     173232    `
+/23             0           0     0     644     202576    `
+/51             0           0     0     644     165632    `
+/79             0           0     0     644     627432    `
+/106            0           0     0     644     620616    `
+/128            0           0     0     644     186848    `
+/151            0           0     0     644     216040    `
+/181            0           0     0     644     288288    `
+/211            0           0     0     644     1160      `
+/228            0           0     0     644     1168      `
+/248            0           0     0     644     1168      `
+/267            0           0     0     644     1160      `

@@ -1,0 +1,13 @@
+!<thin>
+//                                              90        `
+videobuf2-core.o/
+vb2-trace.o/
+videobuf2-v4l2.o/
+videobuf2-memops.o/
+videobuf2-dma-sg.o/
+
+/0              0           0     0     644     319352    `
+/18             0           0     0     644     212464    `
+/31             0           0     0     644     224560    `
+/49             0           0     0     644     130016    `
+/69             0           0     0     644     194208    `

@@ -1,0 +1,1 @@
+cmd_lib/zlib_deflate/built-in.a :=  rm -f lib/zlib_deflate/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD lib/zlib_deflate/built-in.a lib/zlib_deflate/deflate.o lib/zlib_deflate/deftree.o lib/zlib_deflate/deflate_syms.o

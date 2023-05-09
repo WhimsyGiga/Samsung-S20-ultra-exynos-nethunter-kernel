@@ -1,0 +1,20 @@
+!<thin>
+//                                              208       `
+phy-exynos-dp-video.o/
+phy-exynos-mipi-video.o/
+phy-exynos-mipi-dsim.o/
+phy-exynos-mipi.o/
+phy-exynos-debugfs.o/
+phy-exynos-dp-debugfs.o/
+phy-exynos-usbdrd.o/
+phy-exynos-usb3p1.o/
+phy-exynos-usbdp-gen2-v2.o/
+/0              0           0     0     644     96016     `
+/23             0           0     0     644     106592    `
+/48             0           0     0     644     241016    `
+/72             0           0     0     644     390880    `
+/91             0           0     0     644     198104    `
+/113            0           0     0     644     174752    `
+/138            0           0     0     644     424024    `
+/159            0           0     0     644     254160    `
+/180            0           0     0     644     834928    `

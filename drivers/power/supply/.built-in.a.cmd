@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/built-in.a :=  rm -f drivers/power/supply/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/power/supply/built-in.a drivers/power/supply/power_supply_core.o drivers/power/supply/power_supply_sysfs.o drivers/power/supply/power_supply_leds.o

@@ -1,0 +1,3 @@
+kernel/drivers/video/fbdev/exynos/panel/s6e3hab/s6e3hab.ko
+kernel/drivers/video/fbdev/exynos/panel/s6e3hab/s6e3hab_aod.ko
+kernel/drivers/video/fbdev/exynos/panel/s6e3hab/s6e3hab_profiler.ko

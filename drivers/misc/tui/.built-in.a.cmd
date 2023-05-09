@@ -1,0 +1,1 @@
+cmd_drivers/misc/tui/built-in.a :=  rm -f drivers/misc/tui/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/misc/tui/built-in.a drivers/misc/tui/main.o drivers/misc/tui/stui_core.o drivers/misc/tui/stui_inf.o drivers/misc/tui/platforms/exynos9830/built-in.a

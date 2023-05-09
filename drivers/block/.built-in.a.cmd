@@ -1,0 +1,1 @@
+cmd_drivers/block/built-in.a :=  rm -f drivers/block/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/block/built-in.a drivers/block/brd.o drivers/block/loop.o drivers/block/zram/built-in.a

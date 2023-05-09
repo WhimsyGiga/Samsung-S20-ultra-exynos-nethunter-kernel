@@ -1,0 +1,221 @@
+!<thin>
+//                                              3512      `
+samsung/exynos-el3_mon.o/
+samsung/exynos-smc.o/
+samsung/cal-if/cal-if.o/
+samsung/cal-if/pmucal_system.o/
+samsung/cal-if/pmucal_local.o/
+samsung/cal-if/pmucal_cpu.o/
+samsung/cal-if/pmucal_rae.o/
+samsung/cal-if/pmucal_dbg.o/
+samsung/cal-if/pmucal_powermode.o/
+samsung/cal-if/cmucal.o/
+samsung/cal-if/ra.o/
+samsung/cal-if/vclk.o/
+samsung/cal-if/pll_spec.o/
+samsung/cal-if/acpm_dvfs.o/
+samsung/cal-if/fvmap.o/
+samsung/cal-if/cmu_ewf.o/
+samsung/cal-if/exynos9830/cal_data.o/
+samsung/exynos-pd.o/
+samsung/exynos-pd-dbg.o/
+samsung/ect_parser.o/
+samsung/exynos-pmu.o/
+samsung/acpm/acpm.o/
+samsung/acpm/acpm_ipc.o/
+samsung/acpm/acpm_mfd.o/
+samsung/exynos-rgt.o/
+samsung/exynos-flexpmu-dbg.o/
+samsung/pm_domains.o/
+samsung/exynos-chipid.o/
+samsung/exynos-sci.o/
+samsung/usi_v2.o/
+samsung/exynos-reboot.o/
+samsung/debug/exynos-coresight.o/
+samsung/debug/exynos9830-itmon.o/
+samsung/debug/exynos-handler.o/
+samsung/debug/exynos-helper.o/
+samsung/debug/exynos-adv-tracer.o/
+samsung/debug/exynos-adv-tracer-ipc.o/
+samsung/debug/exynos-adv-tracer-s2d.o/
+samsung/debug/exynos-debug-test.o/
+samsung/exynos-bcm_dbg.o/
+samsung/exynos-bcm_dbg-dt.o/
+samsung/exynos-dm.o/
+samsung/exynos-mcinfo.o/
+samsung/exynos-pm-dvs.o/
+samsung/exynos-powermode.o/
+samsung/exynos-pm.o/
+samsung/exynos-cpuhp.o/
+samsung/exynos-cpupm.o/
+samsung/exynos-seclog.o/
+samsung/exynos-ssp.o/
+samsung/exynos-ocp.o/
+samsung/exynos-hiu.o/
+samsung/exynos-ppmpu.o/
+samsung/exynos-tzasc.o/
+samsung/exynos-s2mpufd.o/
+samsung/exynos-hdcp/exynos-hdcp2-session.o/
+samsung/exynos-hdcp/exynos-hdcp2-teeif.o/
+samsung/exynos-hdcp/exynos-hdcp2.o/
+samsung/exynos-hdcp/exynos-hdcp2-misc.o/
+samsung/exynos-hdcp/exynos-hdcp2-encrypt.o/
+samsung/exynos-hdcp/exynos-hdcp2-crypto.o/
+samsung/exynos-hdcp/exynos-hdcp2-protocol-msg.o/
+samsung/exynos-hdcp/iia_link/exynos-hdcp2-iia-auth.o/
+samsung/exynos-hdcp/iia_link/exynos-hdcp2-iia.o/
+samsung/exynos-hdcp/iia_link/exynos-hdcp2-iia-selftest.o/
+samsung/exynos-hdcp/dp_link/exynos-hdcp2-dplink-inter.o/
+samsung/exynos-hdcp/dp_link/exynos-hdcp2-dplink.o/
+samsung/exynos-hdcp/dp_link/exynos-hdcp2-dplink-if.o/
+samsung/exynos-hdcp/dp_link/exynos-hdcp2-dplink-auth.o/
+samsung/exynos-hdcp/dp_link/exynos-hdcp2-dplink-protocol-msg.o/
+samsung/exynos-hdcp/dp_link/exynos-hdcp2-dplink-selftest.o/
+samsung/secmem.o/
+samsung/exynos-sdm.o/
+samsung/cpif/shm_ipc.o/
+samsung/cpif/boot_device_spi.o/
+samsung/cpif/modem_main.o/
+samsung/cpif/modem_variation.o/
+samsung/cpif/modem_io_device.o/
+samsung/cpif/net_io_device.o/
+samsung/cpif/bootdump_io_device.o/
+samsung/cpif/ipc_io_device.o/
+samsung/cpif/modem_utils.o/
+samsung/cpif/modem_dump.o/
+samsung/cpif/cpif_clat_info.o/
+samsung/cpif/cpif_tethering_info.o/
+samsung/cpif/link_device.o/
+samsung/cpif/s51xx_pcie.o/
+samsung/cpif/link_device_memory_snapshot.o/
+samsung/cpif/link_device_memory_flow_control.o/
+samsung/cpif/link_device_memory_debug.o/
+samsung/cpif/link_device_memory_sbd.o/
+samsung/cpif/link_device_memory_legacy.o/
+samsung/cpif/modem_notifier.o/
+samsung/cpif/modem_ctrl_s5100.o/
+samsung/cpif/modem_ctrl.o/
+samsung/cpif/link_rx_pktproc.o/
+samsung/cpif/cp_btl.o/
+samsung/cpif/modem_argos_notifier.o/
+samsung/exynos_cpu_perf/exynos_perf_ncmemcpy.o/
+samsung/exynos_cpu_perf/exynos_perf_cpuidle.o/
+samsung/exynos_cpu_perf/exynos_perf_cpu.o/
+samsung/exynos_cpu_perf/exynos_perf_cpufreq.o/
+samsung/exynos_cpu_perf/exynos_perf_gmc.o/
+samsung/exynos-s2mpu.o/
+samsung/exynos-el2.o/
+samsung/exynos-migov.o/
+samsung/exynos-cpu-profiler.o/
+samsung/exynos-gpu-profiler.o/
+samsung/exynos-mif-profiler.o/
+
+/0              0           0     0     644     16448     `
+/26             0           0     0     644     4112      `
+/48             0           0     0     644     145400    `
+/73            /0           0     0     644     16512     `
+/105            0           0     0     644     15832     `
+/136            0           0     0     644     19000     `
+/165            0           0     0     644     79640     `
+/194            0           0     0     644     221424    `
+/223            0           0     0     644     12784     `
+/258            0           0     0     644     24008     `
+/283            0           0     0     644     156712    `
+/304            0           0     0     644     156272    `
+/327            0           0     0     644     24056     `
+/354            0           0     0     644     89872     `
+/382            0           0     0     644     199368    `
+/406            0           0     0     644     92816     `
+/432            0           0     0     644     2168248   `
+/470            0           0     0     644     160728    `
+/491           /0           0     0     644     164992    `
+/516            0           0     0     644     412728    `
+/538            0           0     0     644     105496    `
+/560            0           0     0     644     162280    `
+/581            0           0     0     644     198440    `
+/606            0           0     0     644     86064     `
+/631            0           0     0     644     231376    `
+/653            0           0     0     644     193912    `
+/683            0           0     0     644     93008     `
+/705           /0           0     0     644     117216    `
+/730            0           0     0     644     274368    `
+/752            0           0     0     644     96920     `
+/770           /0           0     0     644     154904    `
+/795            0           0     0     644     184864    `
+/829            0           0     0     644     338448    `
+/863            0           0     0     644     95720     `
+/895           /0           0     0     644     173464    `
+/926            0           0     0     644     83232     `
+/961            0           0     0     644     127208    `
+/1000           0           0     0     644     148728    `
+/1039           0           0     0     644     252720    `
+/1074           0           0     0     644     477472    `
+/1100           0           0     0     644     127944    `
+/1129           0           0     0     644     191040    `
+/1150          /0           0     0     644     164128    `
+/1175          /0           0     0     644     93320     `
+/1200           0           0     0     644     68808     `
+/1228           0           0     0     644     243496    `
+/1249           0           0     0     644     211744    `
+/1273           0           0     0     644     170936    `
+/1297          /0           0     0     644     166888    `
+/1322           0           0     0     644     197656    `
+/1344           0           0     0     644     430536    `
+/1366           0           0     0     644     235992    `
+/1388           0           0     0     644     178376    `
+/1412           0           0     0     644     182656    `
+/1436           0           0     0     644     182528    `
+/1462           0           0     0     644     116008    `
+/1506           0           0     0     644     40128     `
+/1548           0           0     0     644     174048    `
+/1584           0           0     0     644     4728      `
+/1625           0           0     0     644     12488     `
+/1669           0           0     0     644     14248     `
+/1712           0           0     0     644     49744     `
+/1761           0           0     0     644     115528    `
+/1815           0           0     0     644     151240    `
+/1864           0           0     0     644     44456     `
+/1922           0           0     0     644     13856     `
+/1979           0           0     0     644     157960    `
+/2030           0           0     0     644     8992      `
+/2084           0           0     0     644     139288    `
+/2140           0           0     0     644     27200     `
+/2204           0           0     0     644     24896     `
+/2264           0           0     0     644     183776    `
+/2282           0           0     0     644     4128      `
+/2304           0           0     0     644     311840    `
+/2328           0           0     0     644     332040    `
+/2360           0           0     0     644     597640    `
+/2387           0           0     0     644     270704    `
+/2419           0           0     0     644     435848    `
+/2451          /0           0     0     644     397560    `
+/2481           0           0     0     644     421776    `
+/2516          /0           0     0     644     420912    `
+/2546           0           0     0     644     526816    `
+/2574           0           0     0     644     316792    `
+/2601           0           0     0     644     303544    `
+/2632           0           0     0     644     7856      `
+/2668           0           0     0     644     674632    `
+/2696           0           0     0     644     360816    `
+/2723           0           0     0     644     319840    `
+/2767           0           0     0     644     331776    `
+/2815           0           0     0     644     300032    `
+/2856           0           0     0     644     333992    `
+/2895           0           0     0     644     344720    `
+/2937           0           0     0     644     7536      `
+/2968           0           0     0     644     451192    `
+/3001           0           0     0     644     309736    `
+/3028           0           0     0     644     381360    `
+/3060           0           0     0     644     340728    `
+/3083           0           0     0     644     303560    `
+/3120           0           0     0     644     398680    `
+/3168           0           0     0     644     148296    `
+/3215           0           0     0     644     1168      `
+/3258           0           0     0     644     183384    `
+/3305           0           0     0     644     337400    `
+/3348           0           0     0     644     83952     `
+/3372           0           0     0     644     14344     `
+/3394           0           0     0     644     418424    `
+/3418           0           0     0     644     224248    `
+/3449           0           0     0     644     147384    `
+/3480           0           0     0     644     162560    `

@@ -1,0 +1,23 @@
+!<thin>
+//                                              160       `
+dsp-hw-system.o/
+dsp-hw-pm.o/
+dsp-hw-clk.o/
+dsp-hw-bus.o/
+dsp-hw-interface.o/
+dsp-hw-debug.o/
+dsp-hw-ctrl.o/
+dsp-hw-memory.o/
+dsp-hw-mailbox.o/
+dsp-hw-dump.o/
+
+/0             /0           0     0     644     266728    `
+/17             0           0     0     644     178728    `
+/30             0           0     0     644     148592    `
+/44             0           0     0     644     148784    `
+/58             0           0     0     644     227456    `
+/78             0           0     0     644     322192    `
+/94             0           0     0     644     362888    `
+/109           /0           0     0     644     169264    `
+/126            0           0     0     644     170000    `
+/144            0           0     0     644     177520    `
