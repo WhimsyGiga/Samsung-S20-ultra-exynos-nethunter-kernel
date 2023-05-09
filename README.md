@@ -9,7 +9,7 @@
 
 # Current working functions
 
-* Internal and External bluetooth works |AIRPLANE MODE HAS TO BE ON|.
+* Internal and External bluetooth works |AIRPLANE MODE HAS TO BE ON|
 * External wifi adapter is functional "Only tested rtl8812au"
-* Usb arsenal is not working properly yet.
+* Usb arsenal is not working properly yet
 
