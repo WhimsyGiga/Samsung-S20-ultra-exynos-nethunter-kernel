@@ -14,5 +14,5 @@ FILE=arch/arm64/boot/Image
 if test -f "$FILE"; then 
     cp "$FILE" Image
     wait
-    zip arch/arm64/boot//Nethunter-s20ultra.zip Image
+    zip arch/arm64/boot/Nethunter-s20ultra.zip Image
 fi
