@@ -6,7 +6,7 @@
 	nop                             // @main
 main:
 .Lfunc_begin0:
-	.file	1 "/home/kali/kernel/scripts/mod/devicetable-offsets.c"
+	.file	1 "/home/kali/Samsung-S20-ultra-exynos-nethunter-kernel/scripts/mod/devicetable-offsets.c"
 	.loc	1 10 0                  // scripts/mod/devicetable-offsets.c:10:0
 	.cfi_sections .debug_frame
 	.cfi_startproc
@@ -895,11 +895,11 @@ main:
 .Linfo_string1:
 	.asciz	"scripts/mod/devicetable-offsets.c" // string offset=259
 .Linfo_string2:
-	.asciz	"/home/kali/kernel"     // string offset=293
+	.asciz	"/home/kali/Samsung-S20-ultra-exynos-nethunter-kernel" // string offset=293
 .Linfo_string3:
-	.asciz	"main"                  // string offset=311
+	.asciz	"main"                  // string offset=346
 .Linfo_string4:
-	.asciz	"int"                   // string offset=316
+	.asciz	"int"                   // string offset=351
 	.section	.debug_abbrev,"",@progbits
 	.byte	1                       // Abbreviation Code
 	.byte	17                      // DW_TAG_compile_unit

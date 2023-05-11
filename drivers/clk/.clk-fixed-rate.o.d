@@ -17,7 +17,7 @@ clk-fixed-rate.o: drivers/clk/clk-fixed-rate.c include/linux/kconfig.h \
   include/linux/stringify.h arch/arm64/include/asm/asm-bug.h \
   arch/arm64/include/asm/brk-imm.h include/asm-generic/bug.h \
   include/linux/kernel.h \
-  /home/kali/kernel/toolchain/clang/host/linux-x86/clang-r349610-jopp/lib64/clang/8.0.8/include/stdarg.h \
+  /home/kali/Samsung-S20-ultra-exynos-nethunter-kernel/toolchain/clang/host/linux-x86/clang-r349610-jopp/lib64/clang/8.0.8/include/stdarg.h \
   include/linux/linkage.h include/linux/export.h \
   arch/arm64/include/asm/linkage.h include/linux/bitops.h \
   include/linux/bits.h arch/arm64/include/asm/bitops.h \
@@ -32,9 +32,10 @@ clk-fixed-rate.o: drivers/clk/clk-fixed-rate.c include/linux/kconfig.h \
   include/asm-generic/bitops/const_hweight.h \
   include/asm-generic/bitops/atomic.h include/linux/atomic.h \
   arch/arm64/include/asm/atomic.h arch/arm64/include/asm/lse.h \
-  arch/arm64/include/asm/atomic_ll_sc.h arch/arm64/include/asm/cmpxchg.h \
-  include/linux/build_bug.h include/asm-generic/atomic-long.h \
-  include/asm-generic/bitops/lock.h \
+  arch/arm64/include/asm/alternative.h arch/arm64/include/asm/cpucaps.h \
+  arch/arm64/include/asm/insn.h arch/arm64/include/asm/atomic_lse.h \
+  arch/arm64/include/asm/cmpxchg.h include/linux/build_bug.h \
+  include/asm-generic/atomic-long.h include/asm-generic/bitops/lock.h \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/le.h \
   arch/arm64/include/uapi/asm/byteorder.h \
@@ -87,12 +88,10 @@ clk-fixed-rate.o: drivers/clk/clk-fixed-rate.c include/linux/kconfig.h \
   arch/arm64/include/generated/asm/qrwlock.h \
   include/asm-generic/qrwlock.h arch/arm64/include/asm/processor.h \
   include/linux/string.h include/uapi/linux/string.h \
-  arch/arm64/include/asm/string.h arch/arm64/include/asm/alternative.h \
-  arch/arm64/include/asm/cpucaps.h arch/arm64/include/asm/insn.h \
-  arch/arm64/include/asm/cpufeature.h include/linux/jump_label.h \
-  arch/arm64/include/asm/hw_breakpoint.h arch/arm64/include/asm/virt.h \
-  arch/arm64/include/asm/sections.h include/asm-generic/sections.h \
-  arch/arm64/include/asm/fpsimd.h \
+  arch/arm64/include/asm/string.h arch/arm64/include/asm/cpufeature.h \
+  include/linux/jump_label.h arch/arm64/include/asm/hw_breakpoint.h \
+  arch/arm64/include/asm/virt.h arch/arm64/include/asm/sections.h \
+  include/asm-generic/sections.h arch/arm64/include/asm/fpsimd.h \
   arch/arm64/include/generated/asm/qspinlock.h \
   include/asm-generic/qspinlock.h include/linux/smp.h \
   include/linux/errno.h include/uapi/linux/errno.h \

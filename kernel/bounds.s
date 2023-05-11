@@ -1,12 +1,16 @@
 	.text
 	.file	"bounds.c"
+                                        // Start of file scope inline assembly
+.arch_extension	lse
+
+                                        // End of file scope inline assembly
 	.globl	main                    // -- Begin function main
 	.p2align	2
 	.type	main,@function
 	nop                             // @main
 main:
 .Lfunc_begin0:
-	.file	1 "/home/kali/kernel/kernel/bounds.c"
+	.file	1 "/home/kali/Samsung-S20-ultra-exynos-nethunter-kernel/kernel/bounds.c"
 	.loc	1 17 0                  // kernel/bounds.c:17:0
 	.cfi_sections .debug_frame
 	.cfi_startproc
@@ -45,11 +49,11 @@ main:
 .Linfo_string1:
 	.asciz	"kernel/bounds.c"       // string offset=259
 .Linfo_string2:
-	.asciz	"/home/kali/kernel"     // string offset=275
+	.asciz	"/home/kali/Samsung-S20-ultra-exynos-nethunter-kernel" // string offset=275
 .Linfo_string3:
-	.asciz	"main"                  // string offset=293
+	.asciz	"main"                  // string offset=328
 .Linfo_string4:
-	.asciz	"int"                   // string offset=298
+	.asciz	"int"                   // string offset=333
 	.section	.debug_abbrev,"",@progbits
 	.byte	1                       // Abbreviation Code
 	.byte	17                      // DW_TAG_compile_unit

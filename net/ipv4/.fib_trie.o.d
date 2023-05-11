@@ -29,8 +29,11 @@ fib_trie.o: net/ipv4/fib_trie.c include/linux/kconfig.h \
   include/asm-generic/bitops/const_hweight.h \
   include/asm-generic/bitops/atomic.h include/linux/atomic.h \
   arch/arm64/include/asm/atomic.h arch/arm64/include/asm/lse.h \
-  arch/arm64/include/asm/atomic_ll_sc.h arch/arm64/include/asm/cmpxchg.h \
-  include/asm-generic/atomic-long.h include/asm-generic/bitops/lock.h \
+  include/linux/export.h arch/arm64/include/asm/alternative.h \
+  arch/arm64/include/asm/cpucaps.h arch/arm64/include/asm/insn.h \
+  include/linux/init.h arch/arm64/include/asm/atomic_lse.h \
+  arch/arm64/include/asm/cmpxchg.h include/asm-generic/atomic-long.h \
+  include/asm-generic/bitops/lock.h \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/le.h \
   arch/arm64/include/uapi/asm/byteorder.h \
@@ -44,10 +47,9 @@ fib_trie.o: net/ipv4/fib_trie.c include/linux/kconfig.h \
   include/linux/pid.h include/linux/rculist.h include/linux/list.h \
   include/linux/poison.h include/linux/const.h \
   include/uapi/linux/const.h include/linux/kernel.h \
-  /home/kali/kernel/toolchain/clang/host/linux-x86/clang-r349610-jopp/lib64/clang/8.0.8/include/stdarg.h \
-  include/linux/linkage.h include/linux/export.h \
-  arch/arm64/include/asm/linkage.h include/linux/log2.h \
-  include/linux/typecheck.h include/linux/printk.h include/linux/init.h \
+  /home/kali/Samsung-S20-ultra-exynos-nethunter-kernel/toolchain/clang/host/linux-x86/clang-r349610-jopp/lib64/clang/8.0.8/include/stdarg.h \
+  include/linux/linkage.h arch/arm64/include/asm/linkage.h \
+  include/linux/log2.h include/linux/typecheck.h include/linux/printk.h \
   include/linux/kern_levels.h include/linux/rcupdate.h \
   include/linux/irqflags.h arch/arm64/include/asm/irqflags.h \
   arch/arm64/include/asm/ptrace.h arch/arm64/include/uapi/asm/ptrace.h \
@@ -71,12 +73,11 @@ fib_trie.o: net/ipv4/fib_trie.c include/linux/kconfig.h \
   arch/arm64/include/asm/stack_pointer.h include/linux/bottom_half.h \
   include/linux/lockdep.h arch/arm64/include/asm/processor.h \
   include/linux/string.h include/uapi/linux/string.h \
-  arch/arm64/include/asm/string.h arch/arm64/include/asm/alternative.h \
-  arch/arm64/include/asm/cpucaps.h arch/arm64/include/asm/insn.h \
-  arch/arm64/include/asm/cpufeature.h include/linux/jump_label.h \
-  arch/arm64/include/asm/hw_breakpoint.h arch/arm64/include/asm/virt.h \
-  arch/arm64/include/asm/sections.h include/asm-generic/sections.h \
-  arch/arm64/include/asm/pgtable-hwdef.h arch/arm64/include/asm/fpsimd.h \
+  arch/arm64/include/asm/string.h arch/arm64/include/asm/cpufeature.h \
+  include/linux/jump_label.h arch/arm64/include/asm/hw_breakpoint.h \
+  arch/arm64/include/asm/virt.h arch/arm64/include/asm/sections.h \
+  include/asm-generic/sections.h arch/arm64/include/asm/pgtable-hwdef.h \
+  arch/arm64/include/asm/fpsimd.h \
   arch/arm64/include/generated/uapi/asm/errno.h \
   include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
   include/linux/cpumask.h include/linux/threads.h include/linux/bitmap.h \

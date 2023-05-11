@@ -26,9 +26,11 @@ exynos-acme.o: drivers/cpufreq/exynos-acme.c include/linux/kconfig.h \
   include/asm-generic/bitops/const_hweight.h \
   include/asm-generic/bitops/atomic.h include/linux/atomic.h \
   arch/arm64/include/asm/atomic.h arch/arm64/include/asm/lse.h \
-  arch/arm64/include/asm/atomic_ll_sc.h arch/arm64/include/asm/cmpxchg.h \
-  include/linux/build_bug.h include/asm-generic/atomic-long.h \
-  include/asm-generic/bitops/lock.h \
+  include/linux/export.h include/linux/stringify.h \
+  arch/arm64/include/asm/alternative.h arch/arm64/include/asm/cpucaps.h \
+  arch/arm64/include/asm/insn.h arch/arm64/include/asm/atomic_lse.h \
+  arch/arm64/include/asm/cmpxchg.h include/linux/build_bug.h \
+  include/asm-generic/atomic-long.h include/asm-generic/bitops/lock.h \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/le.h \
   arch/arm64/include/uapi/asm/byteorder.h \
@@ -43,9 +45,8 @@ exynos-acme.o: drivers/cpufreq/exynos-acme.c include/linux/kconfig.h \
   include/linux/kobject.h include/linux/list.h include/linux/poison.h \
   include/linux/const.h include/uapi/linux/const.h \
   include/linux/kernel.h \
-  /home/kali/kernel/toolchain/clang/host/linux-x86/clang-r349610-jopp/lib64/clang/8.0.8/include/stdarg.h \
-  include/linux/linkage.h include/linux/stringify.h \
-  include/linux/export.h arch/arm64/include/asm/linkage.h \
+  /home/kali/Samsung-S20-ultra-exynos-nethunter-kernel/toolchain/clang/host/linux-x86/clang-r349610-jopp/lib64/clang/8.0.8/include/stdarg.h \
+  include/linux/linkage.h arch/arm64/include/asm/linkage.h \
   include/linux/log2.h include/linux/typecheck.h include/linux/printk.h \
   include/linux/kern_levels.h include/linux/cache.h \
   include/uapi/linux/kernel.h include/uapi/linux/sysinfo.h \
@@ -58,15 +59,13 @@ exynos-acme.o: drivers/cpufreq/exynos-acme.c include/linux/kconfig.h \
   include/asm-generic/qrwlock_types.h include/linux/lockdep.h \
   include/linux/rwlock_types.h arch/arm64/include/asm/processor.h \
   include/linux/string.h include/uapi/linux/string.h \
-  arch/arm64/include/asm/string.h arch/arm64/include/asm/alternative.h \
-  arch/arm64/include/asm/cpucaps.h arch/arm64/include/asm/insn.h \
-  arch/arm64/include/asm/cpufeature.h arch/arm64/include/asm/hwcap.h \
-  arch/arm64/include/uapi/asm/hwcap.h include/linux/bug.h \
-  arch/arm64/include/asm/bug.h arch/arm64/include/asm/asm-bug.h \
-  arch/arm64/include/asm/brk-imm.h include/asm-generic/bug.h \
-  include/linux/jump_label.h arch/arm64/include/asm/hw_breakpoint.h \
-  arch/arm64/include/asm/virt.h arch/arm64/include/asm/ptrace.h \
-  arch/arm64/include/uapi/asm/ptrace.h \
+  arch/arm64/include/asm/string.h arch/arm64/include/asm/cpufeature.h \
+  arch/arm64/include/asm/hwcap.h arch/arm64/include/uapi/asm/hwcap.h \
+  include/linux/bug.h arch/arm64/include/asm/bug.h \
+  arch/arm64/include/asm/asm-bug.h arch/arm64/include/asm/brk-imm.h \
+  include/asm-generic/bug.h include/linux/jump_label.h \
+  arch/arm64/include/asm/hw_breakpoint.h arch/arm64/include/asm/virt.h \
+  arch/arm64/include/asm/ptrace.h arch/arm64/include/uapi/asm/ptrace.h \
   arch/arm64/include/uapi/asm/sigcontext.h include/asm-generic/ptrace.h \
   arch/arm64/include/asm/sections.h include/asm-generic/sections.h \
   arch/arm64/include/asm/pgtable-hwdef.h arch/arm64/include/asm/memory.h \

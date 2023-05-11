@@ -25,9 +25,12 @@ hweight.o: lib/hweight.c include/linux/kconfig.h \
   include/asm-generic/bitops/const_hweight.h \
   include/asm-generic/bitops/atomic.h include/linux/atomic.h \
   include/linux/types.h arch/arm64/include/asm/atomic.h \
-  arch/arm64/include/asm/lse.h arch/arm64/include/asm/atomic_ll_sc.h \
-  arch/arm64/include/asm/cmpxchg.h include/linux/build_bug.h \
-  include/asm-generic/atomic-long.h include/asm-generic/bitops/lock.h \
+  arch/arm64/include/asm/lse.h include/linux/stringify.h \
+  arch/arm64/include/asm/alternative.h arch/arm64/include/asm/cpucaps.h \
+  arch/arm64/include/asm/insn.h include/linux/init.h \
+  arch/arm64/include/asm/atomic_lse.h arch/arm64/include/asm/cmpxchg.h \
+  include/linux/build_bug.h include/asm-generic/atomic-long.h \
+  include/asm-generic/bitops/lock.h \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/le.h \
   arch/arm64/include/uapi/asm/byteorder.h \

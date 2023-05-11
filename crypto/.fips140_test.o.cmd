@@ -1,4 +1,4 @@
-cmd_crypto/fips140_test.o := ./toolchain/clang/host/linux-x86/clang-r349610-jopp/bin/clang -Wp,-MD,crypto/.fips140_test.o.d -nostdinc -isystem /home/kali/kernel/toolchain/clang/host/linux-x86/clang-r349610-jopp/lib64/clang/8.0.8/include -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -Qunused-arguments -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -Werror-implicit-function-declaration -Wno-format-security -Werror -std=gnu89 --target=aarch64-linux-gnu --prefix=./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/ --gcc-toolchain=/home/kali/kernel/toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9 -no-integrated-as -Werror=unknown-warning-option -fno-PIE -mgeneral-regs-only -DCONFIG_BROKEN_GAS_INST=1 -fno-asynchronous-unwind-tables -fno-delete-null-pointer-checks -Wno-address-of-packed-member -Os -Wframe-larger-than=4096 -fstack-protector-strong -Wno-format-invalid-specifier -Wno-gnu -Wno-tautological-compare -mno-global-merge -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -fno-jump-tables -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fno-merge-all-constants -fno-stack-check -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -Werror=incompatible-pointer-types -Wno-initializer-overrides -Wno-unused-value -Wno-format -Wno-sign-compare -Wno-format-zero-length -Wno-uninitialized -fno-data-sections -fno-function-sections    -DKBUILD_BASENAME='"fips140_test"' -DKBUILD_MODNAME='"fips140_test"' -c -o crypto/.tmp_fips140_test.o crypto/fips140_test.c
+cmd_crypto/fips140_test.o := ./toolchain/clang/host/linux-x86/clang-r349610-jopp/bin/clang -Wp,-MD,crypto/.fips140_test.o.d -nostdinc -isystem /home/kali/Samsung-S20-ultra-exynos-nethunter-kernel/toolchain/clang/host/linux-x86/clang-r349610-jopp/lib64/clang/8.0.8/include -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -Qunused-arguments -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -Werror-implicit-function-declaration -Wno-format-security -Werror -std=gnu89 --target=aarch64-linux-gnu --prefix=./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/ --gcc-toolchain=/home/kali/Samsung-S20-ultra-exynos-nethunter-kernel/toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9 -no-integrated-as -Werror=unknown-warning-option -fno-PIE -mgeneral-regs-only -DCONFIG_AS_LSE=1 -fno-asynchronous-unwind-tables -fno-delete-null-pointer-checks -Wno-address-of-packed-member -Os -Wframe-larger-than=4096 -fstack-protector-strong -Wno-format-invalid-specifier -Wno-gnu -Wno-tautological-compare -mno-global-merge -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -fno-jump-tables -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fno-merge-all-constants -fno-stack-check -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -Werror=incompatible-pointer-types -Wno-initializer-overrides -Wno-unused-value -Wno-format -Wno-sign-compare -Wno-format-zero-length -Wno-uninitialized -fno-data-sections -fno-function-sections    -DKBUILD_BASENAME='"fips140_test"' -DKBUILD_MODNAME='"fips140_test"' -c -o crypto/.tmp_fips140_test.o crypto/fips140_test.c
 
 source_crypto/fips140_test.o := crypto/fips140_test.c
 
@@ -63,7 +63,22 @@ deps_crypto/fips140_test.o := \
     $(wildcard include/config/smp.h) \
   include/linux/kasan-checks.h \
   arch/arm64/include/asm/lse.h \
-  arch/arm64/include/asm/atomic_ll_sc.h \
+  include/linux/export.h \
+    $(wildcard include/config/modules.h) \
+    $(wildcard include/config/modversions.h) \
+    $(wildcard include/config/module/rel/crcs.h) \
+    $(wildcard include/config/have/arch/prel32/relocations.h) \
+    $(wildcard include/config/trim/unused/ksyms.h) \
+    $(wildcard include/config/unused/symbols.h) \
+  include/linux/stringify.h \
+  arch/arm64/include/asm/alternative.h \
+    $(wildcard include/config/arm64/uao.h) \
+  arch/arm64/include/asm/cpucaps.h \
+  arch/arm64/include/asm/insn.h \
+  include/linux/init.h \
+    $(wildcard include/config/strict/kernel/rwx.h) \
+    $(wildcard include/config/strict/module/rwx.h) \
+  arch/arm64/include/asm/atomic_lse.h \
   arch/arm64/include/asm/cmpxchg.h \
   include/linux/build_bug.h \
   include/asm-generic/atomic-long.h \
@@ -75,20 +90,12 @@ deps_crypto/fips140_test.o := \
     $(wildcard include/config/arch/has/refcount.h) \
     $(wildcard include/config/panic/timeout.h) \
     $(wildcard include/config/tracing.h) \
-  /home/kali/kernel/toolchain/clang/host/linux-x86/clang-r349610-jopp/lib64/clang/8.0.8/include/stdarg.h \
+  /home/kali/Samsung-S20-ultra-exynos-nethunter-kernel/toolchain/clang/host/linux-x86/clang-r349610-jopp/lib64/clang/8.0.8/include/stdarg.h \
   include/linux/linkage.h \
     $(wildcard include/config/uh/rkp.h) \
     $(wildcard include/config/fastuh/rkp.h) \
     $(wildcard include/config/kdp/cred.h) \
     $(wildcard include/config/rkp/cfp/jopp.h) \
-  include/linux/stringify.h \
-  include/linux/export.h \
-    $(wildcard include/config/modules.h) \
-    $(wildcard include/config/modversions.h) \
-    $(wildcard include/config/module/rel/crcs.h) \
-    $(wildcard include/config/have/arch/prel32/relocations.h) \
-    $(wildcard include/config/trim/unused/ksyms.h) \
-    $(wildcard include/config/unused/symbols.h) \
   arch/arm64/include/asm/linkage.h \
   include/linux/bitops.h \
   include/linux/bits.h \
@@ -131,9 +138,6 @@ deps_crypto/fips140_test.o := \
     $(wildcard include/config/printk/nmi.h) \
     $(wildcard include/config/printk.h) \
     $(wildcard include/config/dynamic/debug.h) \
-  include/linux/init.h \
-    $(wildcard include/config/strict/kernel/rwx.h) \
-    $(wildcard include/config/strict/module/rwx.h) \
   include/linux/kern_levels.h \
   include/linux/cache.h \
     $(wildcard include/config/arch/has/cache/line/size.h) \
@@ -307,10 +311,6 @@ deps_crypto/fips140_test.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/arch/has/uaccess/flushcache.h) \
-  arch/arm64/include/asm/alternative.h \
-    $(wildcard include/config/arm64/uao.h) \
-  arch/arm64/include/asm/cpucaps.h \
-  arch/arm64/include/asm/insn.h \
   arch/arm64/include/asm/cpufeature.h \
     $(wildcard include/config/arm64/sve.h) \
     $(wildcard include/config/arm64/ssbd.h) \

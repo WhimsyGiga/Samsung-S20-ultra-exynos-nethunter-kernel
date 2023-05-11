@@ -1406,7 +1406,7 @@ endif
 ifneq "$(LD)" "./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(CLANG_FLAGS)" "--target=aarch64-linux-gnu --prefix=./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/ --gcc-toolchain=/home/kali/kernel/toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9 -no-integrated-as -Werror=unknown-warning-option"
+ifneq "$(CLANG_FLAGS)" "--target=aarch64-linux-gnu --prefix=./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/ --gcc-toolchain=/home/kali/Samsung-S20-ultra-exynos-nethunter-kernel/toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9 -no-integrated-as -Werror=unknown-warning-option"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(SRCARCH)" "arm64"
@@ -1416,12 +1416,6 @@ ifneq "$(HOSTCXX)" "g++"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(HOSTCC)" "gcc"
-include/config/auto.conf: FORCE
-endif
-ifneq "$(PLATFORM_VERSION)" "11"
-include/config/auto.conf: FORCE
-endif
-ifneq "$(SEC_BUILD_CONF_VENDOR_BUILD_OS)" "13"
 include/config/auto.conf: FORCE
 endif
 

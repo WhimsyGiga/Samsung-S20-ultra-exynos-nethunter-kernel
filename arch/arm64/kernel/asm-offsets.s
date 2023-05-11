@@ -1,12 +1,16 @@
 	.text
 	.file	"asm-offsets.c"
+                                        // Start of file scope inline assembly
+.arch_extension	lse
+
+                                        // End of file scope inline assembly
 	.globl	main                    // -- Begin function main
 	.p2align	2
 	.type	main,@function
 	nop                             // @main
 main:
 .Lfunc_begin0:
-	.file	1 "/home/kali/kernel/arch/arm64/kernel/asm-offsets.c"
+	.file	1 "/home/kali/Samsung-S20-ultra-exynos-nethunter-kernel/arch/arm64/kernel/asm-offsets.c"
 	.loc	1 39 0                  // arch/arm64/kernel/asm-offsets.c:39:0
 	.cfi_sections .debug_frame
 	.cfi_startproc
@@ -561,11 +565,11 @@ main:
 .Linfo_string1:
 	.asciz	"arch/arm64/kernel/asm-offsets.c" // string offset=259
 .Linfo_string2:
-	.asciz	"/home/kali/kernel"     // string offset=291
+	.asciz	"/home/kali/Samsung-S20-ultra-exynos-nethunter-kernel" // string offset=291
 .Linfo_string3:
-	.asciz	"main"                  // string offset=309
+	.asciz	"main"                  // string offset=344
 .Linfo_string4:
-	.asciz	"int"                   // string offset=314
+	.asciz	"int"                   // string offset=349
 	.section	.debug_abbrev,"",@progbits
 	.byte	1                       // Abbreviation Code
 	.byte	17                      // DW_TAG_compile_unit

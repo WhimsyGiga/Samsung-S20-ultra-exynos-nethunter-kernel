@@ -19,7 +19,7 @@ sec_audio_sysfs.o: sound/soc/samsung/sec_audio_sysfs.c \
   include/linux/init.h include/linux/module.h include/linux/list.h \
   include/linux/poison.h include/linux/const.h \
   include/uapi/linux/const.h include/linux/kernel.h \
-  /home/kali/kernel/toolchain/clang/host/linux-x86/clang-r349610-jopp/lib64/clang/8.0.8/include/stdarg.h \
+  /home/kali/Samsung-S20-ultra-exynos-nethunter-kernel/toolchain/clang/host/linux-x86/clang-r349610-jopp/lib64/clang/8.0.8/include/stdarg.h \
   include/linux/linkage.h include/linux/stringify.h \
   include/linux/export.h arch/arm64/include/asm/linkage.h \
   include/linux/bitops.h include/linux/bits.h \
@@ -35,9 +35,10 @@ sec_audio_sysfs.o: sound/soc/samsung/sec_audio_sysfs.c \
   include/asm-generic/bitops/const_hweight.h \
   include/asm-generic/bitops/atomic.h include/linux/atomic.h \
   arch/arm64/include/asm/atomic.h arch/arm64/include/asm/lse.h \
-  arch/arm64/include/asm/atomic_ll_sc.h arch/arm64/include/asm/cmpxchg.h \
-  include/linux/build_bug.h include/asm-generic/atomic-long.h \
-  include/asm-generic/bitops/lock.h \
+  arch/arm64/include/asm/alternative.h arch/arm64/include/asm/cpucaps.h \
+  arch/arm64/include/asm/insn.h arch/arm64/include/asm/atomic_lse.h \
+  arch/arm64/include/asm/cmpxchg.h include/linux/build_bug.h \
+  include/asm-generic/atomic-long.h include/asm-generic/bitops/lock.h \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/le.h \
   arch/arm64/include/uapi/asm/byteorder.h \
@@ -78,16 +79,15 @@ sec_audio_sysfs.o: sound/soc/samsung/sec_audio_sysfs.c \
   arch/arm64/include/asm/stack_pointer.h include/linux/bottom_half.h \
   include/linux/lockdep.h arch/arm64/include/asm/processor.h \
   include/linux/string.h include/uapi/linux/string.h \
-  arch/arm64/include/asm/string.h arch/arm64/include/asm/alternative.h \
-  arch/arm64/include/asm/cpucaps.h arch/arm64/include/asm/insn.h \
-  arch/arm64/include/asm/cpufeature.h include/linux/jump_label.h \
-  arch/arm64/include/asm/hw_breakpoint.h arch/arm64/include/asm/virt.h \
-  arch/arm64/include/asm/sections.h include/asm-generic/sections.h \
-  arch/arm64/include/asm/pgtable-hwdef.h arch/arm64/include/asm/fpsimd.h \
-  include/linux/cpumask.h include/linux/threads.h include/linux/bitmap.h \
-  include/linux/rcutree.h include/linux/sem.h include/uapi/linux/sem.h \
-  include/linux/ipc.h include/linux/spinlock.h \
-  include/linux/spinlock_types.h arch/arm64/include/asm/spinlock_types.h \
+  arch/arm64/include/asm/string.h arch/arm64/include/asm/cpufeature.h \
+  include/linux/jump_label.h arch/arm64/include/asm/hw_breakpoint.h \
+  arch/arm64/include/asm/virt.h arch/arm64/include/asm/sections.h \
+  include/asm-generic/sections.h arch/arm64/include/asm/pgtable-hwdef.h \
+  arch/arm64/include/asm/fpsimd.h include/linux/cpumask.h \
+  include/linux/threads.h include/linux/bitmap.h include/linux/rcutree.h \
+  include/linux/sem.h include/uapi/linux/sem.h include/linux/ipc.h \
+  include/linux/spinlock.h include/linux/spinlock_types.h \
+  arch/arm64/include/asm/spinlock_types.h \
   include/asm-generic/qspinlock_types.h \
   include/asm-generic/qrwlock_types.h include/linux/rwlock_types.h \
   arch/arm64/include/asm/spinlock.h \

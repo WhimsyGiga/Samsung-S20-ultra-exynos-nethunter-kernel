@@ -17,7 +17,7 @@ devres.o: lib/devres.c include/linux/kconfig.h \
   include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
   include/linux/pci.h include/linux/mod_devicetable.h \
   include/linux/uuid.h include/uapi/linux/uuid.h include/linux/string.h \
-  /home/kali/kernel/toolchain/clang/host/linux-x86/clang-r349610-jopp/lib64/clang/8.0.8/include/stdarg.h \
+  /home/kali/Samsung-S20-ultra-exynos-nethunter-kernel/toolchain/clang/host/linux-x86/clang-r349610-jopp/lib64/clang/8.0.8/include/stdarg.h \
   include/uapi/linux/string.h arch/arm64/include/asm/string.h \
   include/linux/init.h include/linux/ioport.h include/linux/list.h \
   include/linux/poison.h include/linux/const.h \
@@ -37,9 +37,10 @@ devres.o: lib/devres.c include/linux/kconfig.h \
   include/asm-generic/bitops/const_hweight.h \
   include/asm-generic/bitops/atomic.h include/linux/atomic.h \
   arch/arm64/include/asm/atomic.h arch/arm64/include/asm/lse.h \
-  arch/arm64/include/asm/atomic_ll_sc.h arch/arm64/include/asm/cmpxchg.h \
-  include/linux/build_bug.h include/asm-generic/atomic-long.h \
-  include/asm-generic/bitops/lock.h \
+  arch/arm64/include/asm/alternative.h arch/arm64/include/asm/cpucaps.h \
+  arch/arm64/include/asm/insn.h arch/arm64/include/asm/atomic_lse.h \
+  arch/arm64/include/asm/cmpxchg.h include/linux/build_bug.h \
+  include/asm-generic/atomic-long.h include/asm-generic/bitops/lock.h \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/le.h \
   arch/arm64/include/uapi/asm/byteorder.h \
@@ -60,14 +61,13 @@ devres.o: lib/devres.c include/linux/kconfig.h \
   include/asm-generic/qspinlock_types.h \
   include/asm-generic/qrwlock_types.h include/linux/lockdep.h \
   include/linux/rwlock_types.h arch/arm64/include/asm/processor.h \
-  arch/arm64/include/asm/alternative.h arch/arm64/include/asm/cpucaps.h \
-  arch/arm64/include/asm/insn.h arch/arm64/include/asm/cpufeature.h \
-  arch/arm64/include/asm/hwcap.h arch/arm64/include/uapi/asm/hwcap.h \
-  include/linux/bug.h arch/arm64/include/asm/bug.h \
-  arch/arm64/include/asm/asm-bug.h arch/arm64/include/asm/brk-imm.h \
-  include/asm-generic/bug.h include/linux/jump_label.h \
-  arch/arm64/include/asm/hw_breakpoint.h arch/arm64/include/asm/virt.h \
-  arch/arm64/include/asm/ptrace.h arch/arm64/include/uapi/asm/ptrace.h \
+  arch/arm64/include/asm/cpufeature.h arch/arm64/include/asm/hwcap.h \
+  arch/arm64/include/uapi/asm/hwcap.h include/linux/bug.h \
+  arch/arm64/include/asm/bug.h arch/arm64/include/asm/asm-bug.h \
+  arch/arm64/include/asm/brk-imm.h include/asm-generic/bug.h \
+  include/linux/jump_label.h arch/arm64/include/asm/hw_breakpoint.h \
+  arch/arm64/include/asm/virt.h arch/arm64/include/asm/ptrace.h \
+  arch/arm64/include/uapi/asm/ptrace.h \
   arch/arm64/include/uapi/asm/sigcontext.h include/asm-generic/ptrace.h \
   arch/arm64/include/asm/sections.h include/asm-generic/sections.h \
   arch/arm64/include/asm/pgtable-hwdef.h arch/arm64/include/asm/memory.h \
