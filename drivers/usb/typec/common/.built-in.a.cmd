@@ -1,1 +1,0 @@
-cmd_drivers/usb/typec/common/built-in.a :=  rm -f drivers/usb/typec/common/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/usb/typec/common/built-in.a drivers/usb/typec/common/pdic_notifier.o drivers/usb/typec/common/pdic_sysfs.o drivers/usb/typec/common/pdic_core.o drivers/usb/typec/common/pdic_misc.o

@@ -1,1 +1,0 @@
-cmd_drivers/misc/tzdev/extensions/built-in.a :=  rm -f drivers/misc/tzdev/extensions/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/misc/tzdev/extensions/built-in.a drivers/misc/tzdev/extensions/boost.o drivers/misc/tzdev/extensions/irs.o drivers/misc/tzdev/extensions/ion_fd2phys_v1.o

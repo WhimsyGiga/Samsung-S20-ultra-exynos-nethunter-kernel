@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/realtek/built-in.a :=  rm -f drivers/net/wireless/realtek/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/net/wireless/realtek/built-in.a drivers/net/wireless/realtek/rtl8812au/built-in.a

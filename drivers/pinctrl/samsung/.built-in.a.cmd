@@ -1,1 +1,0 @@
-cmd_drivers/pinctrl/samsung/built-in.a :=  rm -f drivers/pinctrl/samsung/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/pinctrl/samsung/built-in.a drivers/pinctrl/samsung/pinctrl-samsung.o drivers/pinctrl/samsung/pinctrl-exynos.o drivers/pinctrl/samsung/pinctrl-exynos-arm64.o

@@ -1,1 +1,0 @@
-cmd_drivers/pps/built-in.a :=  rm -f drivers/pps/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/pps/built-in.a drivers/pps/pps.o drivers/pps/kapi.o drivers/pps/sysfs.o drivers/pps/clients/built-in.a drivers/pps/generators/built-in.a

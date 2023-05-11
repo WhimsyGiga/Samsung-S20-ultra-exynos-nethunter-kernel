@@ -1,1 +1,0 @@
-cmd_lib/xz/built-in.a :=  rm -f lib/xz/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD lib/xz/built-in.a lib/xz/xz_dec_syms.o lib/xz/xz_dec_stream.o lib/xz/xz_dec_lzma2.o lib/xz/xz_dec_bcj.o

@@ -1,1 +1,0 @@
-cmd_fs/overlayfs/built-in.a :=  rm -f fs/overlayfs/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD fs/overlayfs/built-in.a fs/overlayfs/super.o fs/overlayfs/namei.o fs/overlayfs/util.o fs/overlayfs/inode.o fs/overlayfs/file.o fs/overlayfs/dir.o fs/overlayfs/readdir.o fs/overlayfs/copy_up.o fs/overlayfs/export.o

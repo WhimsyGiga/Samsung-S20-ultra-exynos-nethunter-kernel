@@ -1,1 +1,0 @@
-cmd_kernel/dma/built-in.a :=  rm -f kernel/dma/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD kernel/dma/built-in.a kernel/dma/mapping.o kernel/dma/contiguous.o kernel/dma/coherent.o kernel/dma/direct.o kernel/dma/swiotlb.o

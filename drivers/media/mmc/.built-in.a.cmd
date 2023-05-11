@@ -1,1 +1,0 @@
-cmd_drivers/media/mmc/built-in.a :=  rm -f drivers/media/mmc/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/media/mmc/built-in.a drivers/media/mmc/siano/built-in.a

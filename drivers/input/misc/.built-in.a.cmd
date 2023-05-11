@@ -1,1 +1,0 @@
-cmd_drivers/input/misc/built-in.a :=  rm -f drivers/input/misc/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/input/misc/built-in.a drivers/input/misc/uinput.o drivers/input/misc/hall/built-in.a

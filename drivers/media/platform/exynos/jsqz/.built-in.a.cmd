@@ -1,1 +1,0 @@
-cmd_drivers/media/platform/exynos/jsqz/built-in.a :=  rm -f drivers/media/platform/exynos/jsqz/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/media/platform/exynos/jsqz/built-in.a drivers/media/platform/exynos/jsqz/jsqz-core.o drivers/media/platform/exynos/jsqz/jsqz-helper.o

@@ -1,1 +1,0 @@
-cmd_vmlinux := /bin/bash scripts/link-vmlinux.sh ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL  -maarch64elf --no-undefined -X -shared -Bsymbolic -z notext -z norelro  --fix-cortex-a53-843419  --build-id ;  true

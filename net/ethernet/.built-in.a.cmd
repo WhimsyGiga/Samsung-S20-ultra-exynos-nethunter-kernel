@@ -1,1 +1,0 @@
-cmd_net/ethernet/built-in.a :=  rm -f net/ethernet/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD net/ethernet/built-in.a net/ethernet/eth.o

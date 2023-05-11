@@ -1,1 +1,0 @@
-cmd_drivers/gpu/built-in.a :=  rm -f drivers/gpu/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/gpu/built-in.a drivers/gpu/drm/built-in.a drivers/gpu/vga/built-in.a drivers/gpu/arm/built-in.a drivers/gpu/exynos/built-in.a

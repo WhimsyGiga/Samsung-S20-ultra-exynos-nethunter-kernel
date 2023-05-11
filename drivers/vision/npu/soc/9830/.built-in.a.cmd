@@ -1,1 +1,0 @@
-cmd_drivers/vision/npu/soc/9830/built-in.a :=  rm -f drivers/vision/npu/soc/9830/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/vision/npu/soc/9830/built-in.a drivers/vision/npu/soc/9830/npu-system-soc.o

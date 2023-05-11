@@ -1,9 +1,0 @@
-!<thin>
-//                                              62        `
-common_panel_drv.o/
-common_mipi_lcd.o/
-exynos_panel_modes.o/
-
-/0              0           0     0     644     389568    `
-/20             0           0     0     644     375136    `
-/39             0           0     0     644     250352    `

@@ -1,1 +1,0 @@
-cmd_drivers/net/ppp/built-in.a :=  rm -f drivers/net/ppp/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/net/ppp/built-in.a drivers/net/ppp/ppp_generic.o drivers/net/ppp/bsd_comp.o drivers/net/ppp/ppp_deflate.o drivers/net/ppp/ppp_mppe.o drivers/net/ppp/pppox.o drivers/net/ppp/pptp.o

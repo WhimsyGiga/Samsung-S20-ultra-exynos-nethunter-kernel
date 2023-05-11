@@ -1,1 +1,0 @@
-cmd_drivers/pwm/built-in.a :=  rm -f drivers/pwm/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/pwm/built-in.a drivers/pwm/core.o drivers/pwm/sysfs.o drivers/pwm/pwm-samsung.o

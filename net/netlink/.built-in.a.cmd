@@ -1,1 +1,0 @@
-cmd_net/netlink/built-in.a :=  rm -f net/netlink/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD net/netlink/built-in.a net/netlink/af_netlink.o net/netlink/genetlink.o

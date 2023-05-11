@@ -1,1 +1,0 @@
-cmd_lib/reed_solomon/built-in.a :=  rm -f lib/reed_solomon/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD lib/reed_solomon/built-in.a lib/reed_solomon/reed_solomon.o

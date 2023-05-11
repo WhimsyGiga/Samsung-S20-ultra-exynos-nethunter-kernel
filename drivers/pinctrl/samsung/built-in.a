@@ -1,9 +1,0 @@
-!<thin>
-//                                              62        `
-pinctrl-samsung.o/
-pinctrl-exynos.o/
-pinctrl-exynos-arm64.o/
-
-/0              0           0     0     644     283040    `
-/19             0           0     0     644     205400    `
-/37             0           0     0     644     167376    `

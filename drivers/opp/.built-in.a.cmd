@@ -1,1 +1,0 @@
-cmd_drivers/opp/built-in.a :=  rm -f drivers/opp/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/opp/built-in.a drivers/opp/core.o drivers/opp/cpu.o drivers/opp/of.o drivers/opp/debugfs.o

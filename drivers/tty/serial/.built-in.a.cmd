@@ -1,1 +1,0 @@
-cmd_drivers/tty/serial/built-in.a :=  rm -f drivers/tty/serial/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/tty/serial/built-in.a drivers/tty/serial/serial_core.o drivers/tty/serial/earlycon.o drivers/tty/serial/samsung.o

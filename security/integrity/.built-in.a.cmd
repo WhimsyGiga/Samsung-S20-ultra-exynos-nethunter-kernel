@@ -1,1 +1,0 @@
-cmd_security/integrity/built-in.a :=  rm -f security/integrity/built-in.a; ./toolchain/gcc-cfp/gcc-cfp-jopp-only/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD security/integrity/built-in.a security/integrity/iint.o security/integrity/integrity_audit.o security/integrity/digsig.o security/integrity/digsig_asymmetric.o

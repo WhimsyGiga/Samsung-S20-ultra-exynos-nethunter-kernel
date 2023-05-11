@@ -1,3 +1,0 @@
-kernel/block/cfq-iosched.ko
-kernel/block/mq-deadline.ko
-kernel/block/kyber-iosched.ko
