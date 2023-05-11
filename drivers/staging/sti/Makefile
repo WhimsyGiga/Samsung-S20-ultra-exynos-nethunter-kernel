@@ -1,6 +1,7 @@
 # Makefile for sti directory
 
-obj-$(CONFIG_SEC_ABC)		+= abc/
-obj-$(CONFIG_SEC_LABO)		+= labo/
+# Not needed for now
+#obj-$(CONFIG_SEC_ABC)		+= abc/
+#obj-$(CONFIG_SEC_LABO)		+= labo/
 
-subdir-ccflags-y := -Wformat
+#subdir-ccflags-y := -Wformat
